@@ -1,0 +1,37 @@
+// SPDX-License-Identifier: MIT
+// Atharva Prashant Pawar (9427) - Comps-A [Batch-D]
+// BCT - Exp-2 : Voting System using Solidity
+
+// Settings : Compiler - 0.8.18+commit... ; Deploy - Remix VM (Shanghai)
+
+pragma solidity ^0.8.0;
+
+contract Voting{
+
+    struct Candidate{
+        uint id;
+        string name;
+        uint voteCount;
+    }
+
+    mapping (uint => Candidate) public candidates;
+    uint public candidatecount;
+    mapping (address => bool) public citizen;
+    
+    constructor() public{
+        // addCandidate("Godlin");
+        // addCandidate("Hilda");
+    }
+    
+    function addCandidate(string memory _name) private{
+        candidatecount++;
+        candidates[candidatecount] = Candidate(candidatecount, _name, 0);
+    }
+    
+    function vote(uint _candidateid) public{
+        require(!citizen[msg.sender]);
+        citizen[msg.sender] = true;
+        candidates[_candidateid].voteCount ++; 
+    }
+    
+}
