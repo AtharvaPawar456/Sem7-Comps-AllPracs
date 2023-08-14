@@ -3,11 +3,12 @@
 This project provides Python functions for text summarization and pre-processing. It uses the spaCy library for text analysis and processing. The summarization algorithm extracts important sentences from the input text to create a concise summary. The pre-processing functions allow you to apply various filters to the input text.
 
 ## Installation
+    Project Folder : https://github.com/AtharvaPawar456/Sem7-Comps-AllPracs/tree/main/NLP%20-%20Natural%20Language%20Processing/text-summarization-project
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/text-summarization.git
+   git clone https://github.com/AtharvaPawar456/Sem7-Comps-AllPracs.git
    cd text-summarization
 
 2. Install Dependencies: 
@@ -67,10 +68,12 @@ This project provides a Flask API for text summarization and pre-processing.
 
 ## Installation
 
+    Project Folder : https://github.com/AtharvaPawar456/Sem7-Comps-AllPracs/tree/main/NLP%20-%20Natural%20Language%20Processing/text-summarization-project
+
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/text-summarization-api.git
+   git clone https://github.com/AtharvaPawar456/Sem7-Comps-AllPracs.git
    cd text-summarization-api
 
 ## Install the required libraries:
