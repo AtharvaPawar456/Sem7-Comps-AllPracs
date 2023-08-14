@@ -1,0 +1,61 @@
+Link: https://matlab.mathworks.com/
+=========================================================
+Basic:
+=========================================================
+% Load the image
+image = imread('imageName.jpg');
+
+% Convert the image to grayscale
+gray_img = rgb2gray(image);
+
+% Convert the image to binary
+binary_img = imbinarize(image);
+imshow(binaryImage);
+
+% Plot only Borders(edges) of image
+edges = edge(image, 'Canny');
+imshow(edges);
+
+% Rotate the image
+rotated_img = imrotate(image, angle);
+imshow(rotated_img);
+
+% Apply median filtering to remove noise
+median_filtered_img = medfilt2(image, [3, 3]);
+imshow(median_filtered_img);
+
+% Enhance contrast using histogram equalization
+equalized_img = histeq(image);
+imshow(equalized_img);
+
+% Apply image sharpening using unsharp masking
+sharpened_img = imsharpen(image);
+imshow(sharpened_img);
+
+% Apply noise to the image
+noisy_img = imnoise(image, 'gaussian', 0, 0.01);
+imshow(noisy_img);
+
+=========================================================
+Segmentation :
+=========================================================
+% Apply thresholding to segment the image
+threshold = 120; % Adjust this threshold value as needed
+binary_img = image > threshold;
+
+% Display the original and segmented images
+subplot(1, 2, 1);
+imshow(image);
+title('Original Image');
+
+subplot(1, 2, 2);
+imshow(binary_img);
+title('Segmented Image');
+
+% Label connected components in the segmented image
+labeled_img = bwlabel(binary_img);
+
+% Display the labeled image
+figure;
+imshow(label2rgb(labeled_img));
+title('Labeled Image');
