@@ -1,4 +1,13 @@
-Link: https://matlab.mathworks.com/
+## Resourses to Learn Matlab:
+https://www.youtube.com/watch?v=ZAQqq352fjo
+https://www.youtube.com/watch?v=0x4JhS1YpzI&list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9
+https://www.youtube.com/watch?v=sRjN7Rllgrk&list=PLEo-jHOqGNyUWoCSD3l3V-FjX9PnHvx5n&index=2
+
+
+## Workplace - Link: https://matlab.mathworks.com/
+
+## Dataset: https://www.kaggle.com/datasets/kmader/siim-medical-images
+
 =========================================================
 Basic:
 =========================================================
