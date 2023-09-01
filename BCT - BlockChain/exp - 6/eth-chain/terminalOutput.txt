@@ -1,0 +1,75 @@
+
+# cmd:
+
+1.
+geth --datadir "./db" init genesis.json
+
+2.
+geth --datadir "./db" --networkid 123456 --http --http.port "8545" --http.corsdomain "*" --nodiscover --http.api="admin,db,eth,debug,miner,net,shh,txpool,personal,web3"
+
+
+
+PS C:\BCT - BlockChain\exp - 6\eth-chain> geth --datadir "./db" init genesis.json
+INFO [09-01|10:56:33.925] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-01|10:56:33.930] Set global gas cap                       cap=50,000,000
+INFO [09-01|10:56:33.933] Using pebble as the backing database
+INFO [09-01|10:56:33.933] Allocated cache and file handles         database="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\chaindata" cache=16.00MiB handles=16  
+INFO [09-01|10:56:33.944] Opened ancient database                  database="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\chaindata\\ancient/chain" readonly=false
+INFO [09-01|10:56:33.954] Successfully wrote genesis state         database=chaindata hash=743236..b31e94
+INFO [09-01|10:56:33.957] Using pebble as the backing database
+INFO [09-01|10:56:33.958] Allocated cache and file handles         database="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\lightchaindata" cache=16.00MiB handles=16
+INFO [09-01|10:56:34.013] Opened ancient database                  database="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\lightchaindata\\ancient/chain" readonly=false
+INFO [09-01|10:56:34.024] Successfully wrote genesis state         database=lightchaindata hash=743236..b31e94
+PS C:\BCT - BlockChain\exp - 6\eth-chain> geth --datadir "./db" --networkid 123456 --http --http.port "8545" --http.corsdomain "*" --nodiscover --http.api="admin,db,eth,debug,miner,net,shh,txpool,personal,web3"
+INFO [09-01|10:56:37.648] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-01|10:56:37.651] Set global gas cap                       cap=50,000,000
+INFO [09-01|10:56:37.654] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [09-01|10:56:37.654] Using pebble as the backing database
+INFO [09-01|10:56:37.655] Allocated cache and file handles         database="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\chaindata" cache=512.00MiB handles=8192
+INFO [09-01|10:56:37.680] Opened ancient database                  database="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\chaindata\\ancient/chain" readonly=false
+INFO [09-01|10:56:37.695] Disk storage enabled for ethash caches   dir="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\ethash" count=3
+INFO [09-01|10:56:37.696] Disk storage enabled for ethash DAGs     dir="C:\\Users\\Atharva Pawar\\AppData\\Local\\Ethash" count=2
+INFO [09-01|10:56:37.696] Initialising Ethereum protocol           network=123,456 dbversion=8
+INFO [09-01|10:56:37.723]  
+INFO [09-01|10:56:37.724] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [09-01|10:56:37.725] Chain ID:  10 (unknown)
+INFO [09-01|10:56:37.725] Consensus: Ethash (proof-of-work)
+INFO [09-01|10:56:37.725]
+INFO [09-01|10:56:37.726] Pre-Merge hard forks (block based):
+INFO [09-01|10:56:37.727]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [09-01|10:56:37.727]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [09-01|10:56:37.727]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [09-01|10:56:37.728]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [09-01|10:56:37.728]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [09-01|10:56:37.728]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [09-01|10:56:37.728]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [09-01|10:56:37.728]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [09-01|10:56:37.729]  - Berlin:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [09-01|10:56:37.729]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [09-01|10:56:37.729]
+INFO [09-01|10:56:37.730] The Merge is not yet available for this network!
+INFO [09-01|10:56:37.730]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [09-01|10:56:37.730]
+INFO [09-01|10:56:37.732] Post-Merge hard forks (timestamp based):
+INFO [09-01|10:56:37.732]
+INFO [09-01|10:56:37.733] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [09-01|10:56:37.733]
+INFO [09-01|10:56:37.734] Loaded most recent local block           number=0 hash=743236..b31e94 td=524,288 age=3y7mo1d
+INFO [09-01|10:56:37.735] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-01|10:56:37.740] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [09-01|10:56:37.742] Gasprice oracle is ignoring threshold set threshold=2
+WARN [09-01|10:56:37.743] Engine API enabled                       protocol=eth
+WARN [09-01|10:56:37.743] Engine API started but chain not configured for merge yet
+INFO [09-01|10:56:37.745] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/windows-amd64/go1.20.3
+INFO [09-01|10:56:37.782] IPC endpoint opened                      url=\\.\pipe\geth.ipc
+INFO [09-01|10:56:37.784] New local node record                    seq=1,693,545,944,276 id=09052428849707d8 ip=127.0.0.1 udp=0 tcp=30303
+ERROR[09-01|10:56:37.784] Unavailable modules in HTTP API list     unavailable="[db shh]" available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [09-01|10:56:37.785] Started P2P networking                   self="enode://b5922afa269bb8f635091a12b456d523431d88a033b81269a82817f2c9aca2b025ba3a1d256a9eb978366f4ae4f36199c2763b35c91ccc82402dd9b9da2852f2@127.0.0.1:30303?discport=0"
+INFO [09-01|10:56:37.788] Loaded JWT secret file                   path="C:\\Users\\Atharva Pawar\\Documents\\GitHub\\Sem7-Comps-AllPracs\\BCT - BlockChain\\exp - 6\\eth-chain\\db\\geth\\jwtsecret" crc32=0xcf406643
+INFO [09-01|10:56:37.792] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [09-01|10:56:37.806] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [09-01|10:56:37.807] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [09-01|10:56:40.614] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+
+
+
