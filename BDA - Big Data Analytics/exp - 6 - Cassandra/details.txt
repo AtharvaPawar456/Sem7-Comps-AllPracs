@@ -1,0 +1,35 @@
+
+
+cqlsh> use mydata;
+cqlsh:mydata> create table student_data(roll INT PRIMARY KEY, name TEXT);
+cqlsh:mydata> INSERT into student_data(roll,name) values(9238,'Aditya');
+cqlsh:mydata> select * from student_data;
+
+roll | name
+-----+------
+9238 | Aditya
+
+
+
+
+
+cqlsh:mydata> update mydata.student_data set name = 'AdityaVyas' where roll=9238;
+cqlsh:mydata> select * from student_data;
+
+roll | name
+-----+--------------
+9238 | AdityaVyas
+
+
+
+
+
+cqlsh:mydata> delete from mydata.student_data where roll=9238;
+cqlsh:mydata> select * from student_data;
+
+roll | name
+-----+--------------
+
+(0 rows)
+cqlsh:mydata>
+
