@@ -16,4 +16,4 @@
 [link] (https://colab.research.google.com/drive/1hVus-1pRFyIekwodv9BB8QvoIJ50Hk8U?usp=sharing)
 
 ## EXP - 8
-[link] (https://colab.research.google.com/drive/122TOwaDaE0PpisFUVVP2nXDSdRcfOova?usp=sharing)
+[link] (https://colab.research.google.com/drive/1JIqEUTYNKqPo9DR2mKyu5d_XgH3OSIC4?usp=sharing)
