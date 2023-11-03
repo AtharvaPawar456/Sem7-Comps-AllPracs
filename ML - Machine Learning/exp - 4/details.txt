@@ -1,3 +1,10 @@
 # Kris ML Doc
 
 https://github.com/KrisCorriea/ML_Sem_8
+
+
+
+decision tree : 
+
+
+https://github.com/KrisCorriea/ML_Sem_8/blob/main/9185_ML_Expt_4.ipynb
