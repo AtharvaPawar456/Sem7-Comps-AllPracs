@@ -1,5 +1,102 @@
 # Decision Tree
 
+# Atharva
+# Q1. Draw Decision Tree for below problem
+
+import csv
+
+data = [
+    [1, 'Sunny', 'hot', 'high', 'weak', 'NO'],
+    [2, 'Cloudy', 'hot', 'high', 'weak', 'yes'],
+    [3, 'Sunny', 'mild', 'normal', 'strong', 'yes'],
+    [4, 'Cloudy', 'mild', 'high', 'strong', 'yes'],
+    [5, 'rainy', 'mild', 'high', 'strong', 'NO'],
+    [6, 'rainy', 'cool', 'normal', 'strong', 'NO'],
+    [7, 'rainy', 'mild', 'high', 'weak', 'yes'],
+    [8, 'sunny', 'hot', 'high', 'strong', 'no'],
+    [9, 'cloudy', 'hot', 'normal', 'weak', 'yes'],
+    [10, 'rainy', 'mild', 'high', 'strong', 'no']
+]
+
+with open('dataset.csv', 'w', newline='') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(['day', 'weather', 'temperature', 'humidity', 'wind', 'play'])
+    csvwriter.writerows(data)
+
+import pandas as pd
+df = pd.read_csv('dataset.csv')
+print(df)
+
+# Define notations for label encoding
+notations = {
+    'weather': {'Sunny': 1, 'Cloudy': 2, 'rainy': 3, 'sunny': 4, 'cloudy': 5},
+    'temperature': {'hot': 1, 'mild': 2, 'cool': 3},
+    'humidity': {'high': 1, 'normal': 2},
+    'wind': {'weak': 1, 'strong': 2},
+    'play': {'NO': 0, 'yes': 1, 'no': 0}
+}
+
+# label encoding using notations
+df.replace(notations, inplace=True)
+print(df)
+
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+
+# columns = ['day', 'weather', 'temperature', 'humidity', 'wind', 'play']
+
+X = df.drop('play', axis=1)
+X = df.drop('day', axis=1)
+y = df['play']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# DecisionTreeClassifier
+clf = DecisionTreeClassifier(random_state=42)
+
+clf.fit(X_train.values, y_train)
+
+y_pred = clf.predict(X_test.values)
+
+accuracy = (accuracy_score(y_test.values, y_pred) * 100)
+print("Accuracy:", accuracy)
+
+
+from sklearn.tree import plot_tree
+import matplotlib.pyplot as plt
+
+columns = ['day', 'weather', 'temperature', 'humidity', 'wind', 'play']
+_target_names = ['yes','no']
+
+# Plot the decision tree
+plt.figure(figsize=(10, 5))
+plot_tree(clf, filled=True, feature_names=columns, class_names=_target_names)
+plt.show()
+
+# Function to predict based on input features
+def predict_play(features):
+    prediction = clf.predict([features])
+    if prediction == 1:
+        return 'yes'
+    else:
+        return 'no'
+
+# Input your feature values as a list
+input_features = [6, 1, 2, 1, 2]
+
+# Get the prediction
+result = predict_play(input_features)
+# print("Predicted outcome:", result)
+print("Can we play on Saturday ?  \tAns:", result)
+
+
+# ------------------------------------------------------------
+
+# kris
+
 # Phase - 1
 
 

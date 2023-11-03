@@ -8,3 +8,21 @@ decision tree :
 
 
 https://github.com/KrisCorriea/ML_Sem_8/blob/main/9185_ML_Expt_4.ipynb
+
+
+# SMart download
+
+import requests
+
+# url = "https://github.com/AtharvaPawar456/Sem7-Comps-AllPracs/raw/main/ML%20-%20Machine%20Learning/exp%20-%204/main.py"
+
+url = "https://github.com/AtharvaPawar456/Sem7-Comps-AllPracs/blob/main/ML%20-%20Machine%20Learning/exp%20-%204/ML_exp4%20-%20AtharvaPawar-9427.ipynb"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+    with open("main.py", "wb") as file:
+        file.write(response.content)
+    print("main.py downloaded successfully.")
+else:
+    print(f"Failed to download main.py. Status code: {response.status_code}")
