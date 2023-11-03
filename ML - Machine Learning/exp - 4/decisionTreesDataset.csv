@@ -1,0 +1,11 @@
+day,weather,temperature,humidity,wind,play
+1,Sunny,hot,high,weak,NO
+2,Cloudy,hot,high,weak,yes
+3,Sunny,mild,normal,strong,yes
+4,Cloudy,mild,high,strong,yes
+5,rainy,mild,high,strong,NO
+6,rainy,cool,normal,strong,NO
+7,rainy,mild,high,weak,yes
+8,sunny,hot,high,strong,no
+9,cloudy,hot,normal,weak,yes
+10,rainy,mild,high,strong,no
