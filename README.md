@@ -56,3 +56,4 @@ https://www.youtube.com/watch?v=Hbg7QsmPNCY&list=PLjsnHUc1MchjZLPNlAqHDbUIkEWf_0
 Population Health:
 https://www.youtube.com/watch?v=8vQWWNhjffc&list=PL7h-fyTC6p82pm659BBfozkx806ifDBhH
 
+https://www.youtube.com/watch?v=uaRRs_AVxlI&list=PLtkf1CzQAYcE6Ob6Yv6PLFQFIhvR7nWl8
