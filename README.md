@@ -50,3 +50,9 @@ https://www.youtube.com/watch?v=QrLZfvGJ5pw&list=PLim9gWjsjN-MpFDCjM5n2HfI9NFrso
 TechMoodly:
 https://www.youtube.com/watch?v=Hbg7QsmPNCY&list=PLjsnHUc1MchjZLPNlAqHDbUIkEWf_0HV4
 
+## DSHC: Data Science in Health Care
+
+
+Population Health:
+https://www.youtube.com/watch?v=8vQWWNhjffc&list=PL7h-fyTC6p82pm659BBfozkx806ifDBhH
+
