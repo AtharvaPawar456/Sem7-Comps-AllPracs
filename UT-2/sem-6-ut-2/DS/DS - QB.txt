@@ -1,0 +1,14 @@
+Question bank:
+2 marks theory questions 
+a. What are the four scales of measurement?
+b. What is statistical inference?
+c. What are the different graphical methods used in Quantitative data?
+d. What are the basic requirements for assigning probabilities?
+e. Properties of a binomial experiment
+f. Properties of a poisson experiment
+
+5-marks theory questions:
+a. Simpson’s Paradox?
+b. What are the different measures of location?
+c. What are the different measures of variability?
+d. Empirical rule

@@ -1,0 +1,26 @@
+SEM 6 UT-2 PORTION:
+
+SPCC:-
+a) Assemblers (mod 2) 
+b) Macros and Macro Processor (mod 3)
+c) Loaders and Linkers (mod 4)
+
+CSS:-
+Question bank is provided 
+
+MC:-
+a) Mobile Networkig (mod 3)
+b) Wireless Local Area Networks (mod 4)
+Question bank is provided
+
+AI:-
+Question bank is provided 
+
+QA:-
+Question bank is provided
+
+IOT:-
+a) Environment and smart city case study [10 M]
+b) 3 questions on comparision maam will send later
+
+For Honors UT portion ask your respective teachers

@@ -1,0 +1,36 @@
+
+UT - 2 TimeTable:(COMPs)
+
+10  Oct 2023:
+	10:00 AM to 11:00 AM = ML
+	11:30 AM to 12:30 PM = BDA
+
+
+11 Oct 2023:
+	10:00 AM to 11:00 AM = NLP
+	11:30 AM to 12:30 PM = BCT
+
+
+12 Oct 2023:
+	10:00 AM to 11:00 AM = MIS
+	11:30 AM to 12:30 PM = DSHC
+
+----------------------------------------------------------------------------------------------------
+
+
+SEM 7 U1-2 PORTION:
+
+BDA:-
+Question bank is provided 
+
+ML:-
+Ma'am hasn't told me portion yet
+
+NLP:-
+Mod 4, Mod 5 (Qb provided in classroom) and mod 6 few questions ma'am will discuss in today's lec
+
+BCT:-
+Question bank is provided 
+
+MIS:-
+Refer the text sent below

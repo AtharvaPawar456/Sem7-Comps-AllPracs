@@ -1,0 +1,11 @@
+1.Explain security threats, vulnerabilities and attacks.
+2.Explain different types of attacks on data security.
+3.Discuss the system security goals.
+4.Explain the security services related to security goals and attacks.
+5.Explain various security mechanisms.
+6.Discuss various cryptographic techniques.
+7.Explain the working of MD5 algorithm with a neat block diagram.
+8.Explain the working of SHA-1 algorithm with a neat block diagram.
+9.Explain the significance of S-boxes and P-boxes in DES algorithm.
+10. Numericals on RSA and knapsack cryptosystem, and from assignment 1.
+11. Explain key generation in DES algorithm.
